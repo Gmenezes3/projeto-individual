@@ -1,9 +1,20 @@
-
-nav {
-    text-align: end;
-    font-family: Arial;
-
+body {
+    background-image: url(/assets/img/Nilton-Santos.img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.page {
+    text-align: end;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+a {
+    text-decoration:none;
+}
+
 
 #description {
     font-family: helvetica;
@@ -21,7 +32,7 @@ nav {
 
 
 
-#photo{
+#photo {
     margin-left: 42%;
     margin-left: 42%;
     border-radius: 50%;
@@ -30,19 +41,24 @@ nav {
 
 }
 
-.hob{
+.hob {
     background-color: whitesmoke;
     opacity: calc(0.8);
     border-radius: 10px;
     font-size: medium;
     font-family: helvetica;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 1px;
     align-items: center;
-    
+
 }
 
-.contact{
+
+
+.contact {
     text-align: center;
     background-color: whitesmoke;
     opacity: calc(0.9);
@@ -56,7 +72,7 @@ nav {
 
 }
 
-.rodape{
+.rodape {
     text-align: center;
     font-family: arial;
     font-size: medium;
